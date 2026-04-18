@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/bus_railway_icon"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/navigation_ticketing"
+        android:icon="@drawable/search_icon"
+        android:title="Ticketing" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings_icon"
+        android:title="Settings" />
+</menu>
