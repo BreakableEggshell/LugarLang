@@ -8,11 +8,8 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-public class Login extends AppCompatActivity {
+public class Login_Activity extends AppCompatActivity {
 
     TextView tvForgot;
     Button btnLogin;
@@ -31,7 +28,7 @@ public class Login extends AppCompatActivity {
         });
 
         btnLogin.setOnClickListener(v -> {
-            Intent intent = new Intent(Login.this, MainActivity.class);
+            Intent intent = new Intent(Login_Activity.this, MainActivity.class);
             startActivity(intent);
         });
     }

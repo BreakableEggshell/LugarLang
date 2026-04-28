@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_bg"
-    tools:context=".Login">
+    tools:context=".Login_Activity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -72,7 +72,8 @@
             android:hint="Password"
             android:textColor="@android:color/black"
             android:textColorHint="#888888"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:inputType="textPassword"/>
 
         <!-- Button aligned right -->
         <Button

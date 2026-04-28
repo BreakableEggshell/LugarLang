@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebasePractice">
         <activity
-            android:name=".Login"
+            android:name=".Landing_Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,10 +26,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".OnboardingActivity"
             android:exported="false">
 
         </activity>
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
