@@ -16,8 +16,6 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
-    // FirebaseDatabase database;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,12 +31,5 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = navHostFragment.getNavController();
 
         NavigationUI.setupWithNavController(bottomNav, navController);
-
-        /*
-
-        database.getInstance("https://lugarlangfinal-default-rtdb.asia-southeast1.firebasedatabase.app/")
-                .getReference("Testing").setValue("Test!");
-
-         */
     }
 }

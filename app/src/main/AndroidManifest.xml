@@ -18,22 +18,23 @@
         android:theme="@style/Theme.FirebasePractice">
         <activity
             android:name=".Landing_Activity"
+            android:exported="false">
+        </activity>
+        <!-- Intent to here if you want to see commuter side -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false">
+
+        </activity>
+        <!-- Intent to here if you want to see driver side -->
+        <activity
+            android:name=".Login_Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".OnboardingActivity"
-            android:exported="false">
-
-        </activity>
-        <activity
-            android:name=".Login_Activity"
-            android:exported="false">
-
         </activity>
         <activity
             android:name=".MainActivity"
